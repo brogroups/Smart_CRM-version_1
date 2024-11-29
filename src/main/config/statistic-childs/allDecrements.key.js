@@ -1,0 +1,1 @@
+module.exports.allDecrements= '674985125c4bbb7d195fe692'

@@ -1,0 +1,1 @@
+module.exports.statisticId= '674985125c4bbb7d195fe690'

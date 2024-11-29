@@ -1,0 +1,88 @@
+.unique-label{
+    width:100%;
+  }
+  
+  .unique-date-picker {
+    position: absolute;
+    top:55px;
+    left: 0;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    width: 360px;
+    z-index: 10;
+  }
+  
+  .unique-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  
+  .unique-dropdown {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .unique-body {
+    text-align: center;
+  }
+  
+  .unique-weekdays, .unique-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  .unique-weekday{
+    border-bottom: 1px solid #919191;
+  }
+  .unique-weekday, .unique-day {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .unique-day {
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .unique-day:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .unique-today {
+    font-weight: bold;
+    border:1px solid #ccc;
+  }
+  
+  .unique-selected {
+    background-color: #007AFF;
+    color: #fff;
+  }
+  
+  .unique-not-current {
+    color: #919191;
+  }
+  
+  .unique-years, .unique-months {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .unique-year  {
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .unique-month{
+    padding: 10px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .unique-year:hover, .unique-month:hover {
+    background-color: #007AFF;
+    color: #fff;
+  }
